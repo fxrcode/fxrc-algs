@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Quick1",
+            "request": "launch",
+            "mainClass": "algs4.sorting.Quick1",
+            "projectName": "app",
+            "args": [
+                "<",
+                "~/algs4/algs4-data/tinyT.txt"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": [
+                "<",
+                "~/algs4/algs4-data/tinyT.txt"
+            ]
+        }
+    ]
+}
